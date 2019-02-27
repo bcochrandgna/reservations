@@ -1,4 +1,4 @@
-# reservations
+# Reservations Demo App
 
 ### A demo application using the following frameworks / technologies:
 * React Native
