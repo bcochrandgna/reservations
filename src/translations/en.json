@@ -1,0 +1,14 @@
+{
+  "arrival_date": "Arrival",
+  "departure_date": "Departure",
+  "reservations": "Reservations",
+  "create_reservation": "Create Reservation",
+  "name_asc": "Name (ASC)",
+  "name_desc": "Name (DESC)",
+  "hotel_name_asc": "Hotel Name (ASC)",
+  "hotel_name_desc": "Hotel Name (DESC)",
+  "arrival_date_asc": "Arrival Date (ASC)",
+  "arrival_date_desc": "Arrival Date (DESC)",
+  "departure_date_asc": "Departure Date (ASC)",
+  "departure_date_desc": "Departure Date (DESC)"
+}

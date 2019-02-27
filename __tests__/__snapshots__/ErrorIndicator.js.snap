@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorIndicator renders correctly with null props 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "padding": 5,
+    }
+  }
+>
+  <Themed.Icon
+    color="#ff7200"
+    name="error"
+  />
+  <Text
+    style={
+      Object {
+        "color": "#ff7200",
+        "marginLeft": 5,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`ErrorIndicator renders correctly with props 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "padding": 5,
+    }
+  }
+>
+  <Themed.Icon
+    color="#ff7200"
+    name="error"
+  />
+  <Text
+    style={
+      Object {
+        "color": "#ff7200",
+        "marginLeft": 5,
+      }
+    }
+  >
+    Test Error
+  </Text>
+</View>
+`;

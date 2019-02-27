@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateReservation renders correctly 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <CreateReservationHeader />
+  <Mutation
+    mutation={
+      Object {
+        "definitions": Array [
+          Object {
+            "directives": Array [],
+            "kind": "OperationDefinition",
+            "name": Object {
+              "kind": "Name",
+              "value": "CREATE_RESERVATION",
+            },
+            "operation": "mutation",
+            "selectionSet": Object {
+              "kind": "SelectionSet",
+              "selections": Array [
+                Object {
+                  "alias": undefined,
+                  "arguments": Array [
+                    Object {
+                      "kind": "Argument",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "data",
+                      },
+                      "value": Object {
+                        "fields": Array [
+                          Object {
+                            "kind": "ObjectField",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "name",
+                            },
+                            "value": Object {
+                              "kind": "Variable",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "name",
+                              },
+                            },
+                          },
+                          Object {
+                            "kind": "ObjectField",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "hotelName",
+                            },
+                            "value": Object {
+                              "kind": "Variable",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "hotelName",
+                              },
+                            },
+                          },
+                          Object {
+                            "kind": "ObjectField",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "arrivalDate",
+                            },
+                            "value": Object {
+                              "kind": "Variable",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "arrivalDate",
+                              },
+                            },
+                          },
+                          Object {
+                            "kind": "ObjectField",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "departureDate",
+                            },
+                            "value": Object {
+                              "kind": "Variable",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "departureDate",
+                              },
+                            },
+                          },
+                        ],
+                        "kind": "ObjectValue",
+                      },
+                    },
+                  ],
+                  "directives": Array [],
+                  "kind": "Field",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "createReservation",
+                  },
+                  "selectionSet": Object {
+                    "kind": "SelectionSet",
+                    "selections": Array [
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "id",
+                        },
+                        "selectionSet": undefined,
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "name",
+                        },
+                        "selectionSet": undefined,
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "hotelName",
+                        },
+                        "selectionSet": undefined,
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "arrivalDate",
+                        },
+                        "selectionSet": undefined,
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "departureDate",
+                        },
+                        "selectionSet": undefined,
+                      },
+                    ],
+                  },
+                },
+              ],
+            },
+            "variableDefinitions": Array [
+              Object {
+                "defaultValue": undefined,
+                "directives": Array [],
+                "kind": "VariableDefinition",
+                "type": Object {
+                  "kind": "NonNullType",
+                  "type": Object {
+                    "kind": "NamedType",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "String",
+                    },
+                  },
+                },
+                "variable": Object {
+                  "kind": "Variable",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "name",
+                  },
+                },
+              },
+              Object {
+                "defaultValue": undefined,
+                "directives": Array [],
+                "kind": "VariableDefinition",
+                "type": Object {
+                  "kind": "NonNullType",
+                  "type": Object {
+                    "kind": "NamedType",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "String",
+                    },
+                  },
+                },
+                "variable": Object {
+                  "kind": "Variable",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "hotelName",
+                  },
+                },
+              },
+              Object {
+                "defaultValue": undefined,
+                "directives": Array [],
+                "kind": "VariableDefinition",
+                "type": Object {
+                  "kind": "NonNullType",
+                  "type": Object {
+                    "kind": "NamedType",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "String",
+                    },
+                  },
+                },
+                "variable": Object {
+                  "kind": "Variable",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "arrivalDate",
+                  },
+                },
+              },
+              Object {
+                "defaultValue": undefined,
+                "directives": Array [],
+                "kind": "VariableDefinition",
+                "type": Object {
+                  "kind": "NonNullType",
+                  "type": Object {
+                    "kind": "NamedType",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "String",
+                    },
+                  },
+                },
+                "variable": Object {
+                  "kind": "Variable",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "departureDate",
+                  },
+                },
+              },
+            ],
+          },
+        ],
+        "kind": "Document",
+        "loc": Object {
+          "end": 394,
+          "start": 0,
+        },
+      }
+    }
+  >
+    <Component />
+  </Mutation>
+</SafeAreaView>
+`;

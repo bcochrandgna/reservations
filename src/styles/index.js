@@ -1,0 +1,14 @@
+export const screenBackgroundColor = '#ffffff';
+export const normalTextColor = '#000000';
+export const mediumTextSize = 16;
+export const largeTextSize = 18;
+export const borderColor = '#dddddd';
+export const titleTextColor = 'red';
+export const headingTextColor = '#007AFF';
+export const standardMargin = 5;
+export const standardPadding = 5;
+export const globalMargin = 5;
+export const standardBold = '700';
+export const errorTextColor = '#ff7200';
+export const cardBackgroundColor = '#fafafa';
+export const cardShadedColor = '#f0f0f0';

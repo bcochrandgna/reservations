@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateReservationHeader renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "padding": 5,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#007AFF",
+        "fontSize": 18,
+      }
+    }
+  >
+    Create Reservation
+  </Text>
+</View>
+`;

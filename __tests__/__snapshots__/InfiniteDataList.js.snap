@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfiniteDataList renders correctly with null props 1`] = `
+<Text>
+  No Reservations.
+</Text>
+`;
+
+exports[`InfiniteDataList renders correctly with props 1`] = `
+<FlatList
+  data={
+    Array [
+      Object {
+        "arrivalDate": "03/01/2019",
+        "departureDate": "03/03/2019",
+        "hotelName": "Test Hotel 1",
+        "id": "1",
+        "name": "Test Name 1",
+      },
+      Object {
+        "arrivalDate": "03/01/2019",
+        "departureDate": "03/03/2019",
+        "hotelName": "Test Hotel 2",
+        "id": "2",
+        "name": "Test Name 2",
+      },
+      Object {
+        "arrivalDate": "03/01/2019",
+        "departureDate": "03/03/2019",
+        "hotelName": "Test Hotel 3",
+        "id": "3",
+        "name": "Test Name 3",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onEndReachedThreshold={0.5}
+  onRefresh={[Function]}
+  refreshing={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+/>
+`;

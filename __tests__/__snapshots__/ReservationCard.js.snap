@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReservationCard renders correctly with null props 1`] = `""`;
+
+exports[`ReservationCard renders correctly with reservation 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "borderColor": "#dddddd",
+      "borderWidth": 1,
+      "marginBottom": 5,
+      "marginHorizontal": 5,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "padding": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "red",
+          "fontSize": 16,
+        }
+      }
+    >
+      Test Name
+    </Text>
+    <Text>
+      Test Hotel Name
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#f0f0f0",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginTop": 5,
+        "padding": 5,
+      }
+    }
+  >
+    <View>
+      <LabelValue
+        label="Arrival"
+        value="Friday, March 1st 2019"
+      />
+      <LabelValue
+        label="Departure"
+        value="Saturday, March 2nd 2019"
+      />
+    </View>
+    <View />
+  </View>
+</View>
+`;

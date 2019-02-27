@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LabelValue renders correctly with null props 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontWeight": "700",
+      }
+    }
+  >
+    undefined:
+  </Text>
+  <Text
+    style={
+      Object {
+        "marginLeft": 5,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`LabelValue renders correctly with props 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontWeight": "700",
+      }
+    }
+  >
+    Test Label:
+  </Text>
+  <Text
+    style={
+      Object {
+        "marginLeft": 5,
+      }
+    }
+  >
+    Test Value
+  </Text>
+</View>
+`;

@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReservationForm renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "margin": 5,
+      "padding": 5,
+    }
+  }
+>
+  <Text>
+    Name
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    style={
+      Object {
+        "borderBottomColor": "#dddddd",
+        "borderBottomWidth": 1,
+        "marginVertical": 5,
+        "padding": 5,
+        "paddingBottom": 10,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text>
+    Hotel Name
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    style={
+      Object {
+        "borderBottomColor": "#dddddd",
+        "borderBottomWidth": 1,
+        "marginVertical": 5,
+        "padding": 5,
+        "paddingBottom": 10,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text>
+    Arrival Date
+  </Text>
+  <DatePicker
+    TouchableComponent={[Function]}
+    allowFontScaling={true}
+    androidMode="default"
+    cancelBtnText="Cancel"
+    confirmBtnText="Confirm"
+    customStyles={
+      Object {
+        "dateInput": Object {
+          "alignItems": "flex-start",
+          "borderBottomColor": "#dddddd",
+          "borderBottomWidth": 1,
+          "borderWidth": 0,
+          "margin": 0,
+          "padding": 5,
+        },
+      }
+    }
+    date="02/28/2019"
+    disabled={false}
+    duration={300}
+    format="MM/DD/YYYY"
+    height={259}
+    hideText={false}
+    iconSource={
+      Object {
+        "testUri": "../../react-native-datepicker/date_icon.png",
+      }
+    }
+    modalOnResponderTerminationRequest={[Function]}
+    mode="date"
+    onDateChange={[Function]}
+    placeholder=""
+    showIcon={false}
+    style={
+      Object {
+        "margin": 0,
+        "marginBottom": 5,
+        "width": "100%",
+      }
+    }
+  />
+  <Text>
+    Departure Date
+  </Text>
+  <DatePicker
+    TouchableComponent={[Function]}
+    allowFontScaling={true}
+    androidMode="default"
+    cancelBtnText="Cancel"
+    confirmBtnText="Confirm"
+    customStyles={
+      Object {
+        "dateInput": Object {
+          "alignItems": "flex-start",
+          "borderBottomColor": "#dddddd",
+          "borderBottomWidth": 1,
+          "borderWidth": 0,
+          "margin": 0,
+          "padding": 5,
+        },
+      }
+    }
+    date="03/01/2019"
+    disabled={false}
+    duration={300}
+    format="MM/DD/YYYY"
+    height={259}
+    hideText={false}
+    iconSource={
+      Object {
+        "testUri": "../../react-native-datepicker/date_icon.png",
+      }
+    }
+    modalOnResponderTerminationRequest={[Function]}
+    mode="date"
+    onDateChange={[Function]}
+    placeholder=""
+    showIcon={false}
+    style={
+      Object {
+        "margin": 0,
+        "marginBottom": 5,
+        "width": "100%",
+      }
+    }
+  />
+  <ForwardRef(Themed.Button)
+    onPress={[Function]}
+    title="Create Reservation"
+  />
+</View>
+`;
